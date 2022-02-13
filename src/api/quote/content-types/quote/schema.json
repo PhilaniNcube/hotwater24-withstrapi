@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quotes",
+  "info": {
+    "singularName": "quote",
+    "pluralName": "quotes",
+    "displayName": "Quote"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "children": {
+      "type": "integer"
+    },
+    "teenagers": {
+      "type": "integer"
+    },
+    "adults": {
+      "type": "integer"
+    },
+    "houseType": {
+      "type": "string"
+    },
+    "ownership": {
+      "type": "boolean"
+    },
+    "gasSupply": {
+      "type": "string"
+    },
+    "gasStove": {
+      "type": "boolean"
+    },
+    "gasGrill": {
+      "type": "boolean"
+    },
+    "gasHeating": {
+      "type": "boolean"
+    },
+    "noGasUse": {
+      "type": "boolean"
+    },
+    "locateOutside": {
+      "type": "boolean"
+    },
+    "waterHeater": {
+      "type": "string"
+    },
+    "standardShower": {
+      "type": "integer"
+    },
+    "rainShower": {
+      "type": "integer"
+    },
+    "bathtub": {
+      "type": "integer"
+    },
+    "sink": {
+      "type": "integer"
+    },
+    "dishwasher": {
+      "type": "integer"
+    },
+    "washingmachine": {
+      "type": "integer"
+    },
+    "flowRate": {
+      "type": "integer"
+    },
+    "offGrid": {
+      "type": "boolean"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "streetAddress": {
+      "type": "text"
+    },
+    "city": {
+      "type": "string"
+    },
+    "telephoneNumber": {
+      "type": "string"
+    },
+    "completeSolution": {
+      "type": "boolean"
+    }
+  }
+}
