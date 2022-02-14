@@ -4,7 +4,8 @@
   "info": {
     "singularName": "quote",
     "pluralName": "quotes",
-    "displayName": "Quote"
+    "displayName": "Quote",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,7 +33,7 @@
     "gasStove": {
       "type": "boolean"
     },
-    "gasGrill": {
+    "gasWaterHeating": {
       "type": "boolean"
     },
     "gasHeating": {
